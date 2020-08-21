@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 1, Time elapsed: 1.773 s <<< FAILURE! - in TestSuite
+cucumberOptions.TestRunner.setUpClass  Time elapsed: 1.705 s  <<< FAILURE!
+java.lang.NoSuchMethodError: cucumber.runtime.RuntimeOptions.reporter(Ljava/lang/ClassLoader;)Lgherkin/formatter/Reporter;
+
+cucumberOptions.TestRunner.tearDownClass  Time elapsed: 1.744 s  <<< FAILURE!
+java.lang.NullPointerException
+
